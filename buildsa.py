@@ -31,7 +31,7 @@ with open(ref_path) as ref_file:
         ref = seq.sequence_as_string() + "$" # append $ sentinel
 
 print("read in ref")
-ref = ref[:2319838]
+# ref = ref[:2319838]
 print("Length of reference: ", len(ref))
 # ref = "abaaba$"
 
